@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../images/htm.png" type="image/x-icon" />
+    <title>AltSchool Africa Courses</title>
+    <style>
+      body {
+        display: flex;
+        padding: 15px;
+        flex-direction: row;
+        justify-content: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+      }
+
+      div {
+        padding: 15px;
+        width: 50vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      table,
+      thead,
+      tbody,
+      td,
+      th {
+        border: 2px solid #f2f2f2;
+        border-collapse: collapse;
+      }
+
+      thead {
+        background-color: #04aa6d;
+        color: #ffffff;
+      }
+
+      tr:nth-child(even) {
+        background-color: #f1f1f1;
+      }
+
+      th,
+      td {
+        padding: 2rem;
+      }
+
+      tbody > tr:hover {
+        background-color: #ddd;
+      }
+
+      tfoot {
+        text-align: center;
+        background-color: #f1f1f1;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <main>
+        <table border="1">
+          <caption>
+            <h1>AltSchool Africa - Schools and Courses</h1>
+          </caption>
+          <thead>
+            <tr>
+              <th>School</th>
+              <th>Courses</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>School of Engineering (SOE)</td>
+              <td>Frontend, Backend, Cloud Engineering, Cybersecurity</td>
+            </tr>
+            <tr>
+              <td>School of Product (SOP)</td>
+              <td>Product Design, Marketing, Management</td>
+            </tr>
+            <tr>
+              <td>School of Data (SOD)</td>
+              <td>Data Analysis, Science, Engineering</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="2">Copyright &copy; 2024</td>
+            </tr>
+          </tfoot>
+        </table>
+      </main>
+      <footer>
+        <p>Created by Subair AbdulRasaq</p>
+        <p id="contact">
+          <a href="https://github.com/Subair-Abdulrasaq">Github</a> |
+          <a href="mailto:subairasaq204@gmail.com">Mail</a> |
+          <a href="../">Home</a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

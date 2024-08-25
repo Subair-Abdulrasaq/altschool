@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../images/htm.png" type="image/x-icon" />
+    <title>About Me</title>
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+        padding-top: 2rem;
+      }
+      #profile {
+        text-align: center;
+      }
+      .subair {
+        text-align: center;
+      }
+      #profile > img {
+        width: 100px;
+        height: 131px;
+        border-radius: 5rem;
+      }
+      h1,
+      h2 {
+        text-align: center;
+      }
+      #web {
+        text-align: center;
+      }
+      .web > figcaption {
+        text-align: center;
+      }
+      .video,
+      .picture,
+      .audio {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+      @media screen and (max-width: 600px) {
+        iframe {
+          width: 100vw;
+        }
+      }
+      @media screen and (min-width: 980px) {
+        html {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+        }
+        body {
+          margin: 2rem 0;
+          padding: 15px;
+          width: 50vw;
+          min-width: 600px;
+          border: 1px solid black;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <header>
+        <h1>Welcome to my website!</h1>
+      </header>
+      <main>
+        <article id="about-me">
+          <h2>About Me</h2>
+          <figure class="subair">
+            <div id="profile">
+              <img
+                src="../images/ras.png"
+                alt="subair profile picture"
+                width="486"
+                height="630"
+              />
+            </div>
+            <figcaption>Subair's Profile Picture</figcaption>
+          </figure>
+          <section class="audio">
+            <audio controls>
+              <source src="../images/voice.mp3" type="audio/mpeg" />
+            </audio>
+          </section>
+          <p>
+            I'm Subair, a student at ALT School, an online school for web
+            development. I'm learning about HTML, CSS, and Javascript in the
+            Frontend Development track. I'm also planning on learning about
+            UI/UX design and Backend development in the Fullstack Development
+            track. I'm going to continue learning and keep growing as a
+            developer at ALT School.
+          </p>
+        </article>
+
+        <hr />
+        <article>
+          <h2>My Journey into Web Development</h2>
+          <figure class="web">
+            <div id="web">
+              <img src="../images/web.png" alt="web logo" width="50" />
+            </div>
+            <figcaption>Web Logo</figcaption>
+          </figure>
+          <p>
+            I started learning HTML, CSS, and Javascript in 2023. I'm currently
+            learning CSS responsive design. I'm also planning on learning about
+            UI/UX design and Backend development in the Fullstack Development
+            track. I'm going to continue learning and keep growing as a
+            developer at ALT School.
+          </p>
+          <p>
+            To host this portfolio, i learnt how to on youtube. I couldn't find
+            the video so just enjoy this short cartoon video :)
+          </p>
+          <aside class="video">
+            <iframe
+              width="420"
+              height="315"
+              src="https://www.youtube.com/embed/tgbNymZ7vqY"
+              frameborder="0"
+            ></iframe>
+          </aside>
+        </article>
+
+        <hr />
+
+        <article>
+          <h2>What I do in my free time</h2>
+          <p>
+            I love to play video games, watch movies and TV shows, love to read,
+            love to cook and love to travel.
+          </p>
+          <figure>
+            <picture class="picture"
+              ><source
+                media="(min-width: 980px)"
+                width="600"
+                height="859"
+                srcset="../images/liver.png"
+              />
+              <source
+                media="(min-width: 650px)"
+                width="453"
+                height="630"
+                srcset="../images/stranger.jpg"
+              />
+              <img
+                src="../images/game.jpg"
+                width="200"
+                height="150"
+                alt="game image"
+              />
+            </picture>
+            <br />
+            <figcaption>An illustration things I do</figcaption>
+          </figure>
+        </article>
+      </main>
+      <hr />
+      <footer>
+        <p>Created by Subair AbdulRasaq</p>
+        <p id="contact">
+          <a href="https://github.com/Subair-Abdulrasaq">Github</a> |
+          <a href="mailto:subairasaq204@gmail.com">Mail</a> |
+          <a href="../">Home</a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
