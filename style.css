@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+#alt-img {
+  width: 100px;
+}
+
+body {
+  display: flex;
+  padding: 15px;
+  flex-direction: row;
+  justify-content: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+div {
+  padding: 15px;
+  width: 50vw;
+  border: 1px solid black;
+}
